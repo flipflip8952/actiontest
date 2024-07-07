@@ -39,6 +39,17 @@ jobs:
           echo "::warning file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
           echo gugus
           echo "::notice ::hello hello"
-
+          echo "::group::My title"
+          echo "Inside group"
+          echo "Inside group"
+          echo "Inside group"
+          echo "Inside group"
+          echo "::endgroup::"
+          echo "::group::My title gugus"
+          echo "Inside group"
+          echo "Inside group"
+          echo "Inside group"
+          echo "Inside group"
+          echo "::endgroup::"
 
 
