@@ -34,7 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          set
           echo "::notice file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
           echo bla
           echo "::warning file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
@@ -44,6 +43,7 @@ jobs:
           echo "::notice title=hello hello::what's this"
           echo "Inside group"
           echo "Inside group"
+          echo "::warning title=inside group::can i see this?"
           echo "Inside group"
           echo "Inside group"
           echo "::endgroup::"
