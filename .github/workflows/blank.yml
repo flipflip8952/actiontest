@@ -41,6 +41,7 @@ jobs:
           echo gugus
           echo "::notice ::hello hello"
           echo "::group::My title"
+          echo "::notice title=hello hello::"
           echo "Inside group"
           echo "Inside group"
           echo "Inside group"
