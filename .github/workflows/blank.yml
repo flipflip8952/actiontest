@@ -52,5 +52,8 @@ jobs:
           echo "Inside group"
           echo "Inside group"
           echo "::endgroup::"
+          echo ::warning title=guguseli::something went wrong
+          echo ::warning file=,title=hoihoi::something else went wrong
+
 
 
